@@ -7,7 +7,6 @@ import { ChevronRight, ArrowLeft, Calendar, Clock } from "lucide-react"
 import React from "react"
 import Image from "next/image"
 import type { JSX } from "react"
-const HeadingTag = `h${headingLevel}` as React.ElementType
 
 // Mock blog data (same as in blog page)
 const BLOG_POSTS = [
